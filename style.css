@@ -5,18 +5,16 @@
 }
 body{
     margin: auto;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family:'Fredoka', sans-serif;
 }
-h3{
+h1{
     text-align: center;
     color: rgb(229, 49, 112);
-    
+    margin-top: 20px;
 }
 #incipit{
     text-align: center;
-    font-size: 11px;
-    margin-bottom: 20px;
-    margin-top: 20px;
+    margin: 40px 0px;
 }
 .container {
     max-width: 1100px;
@@ -25,7 +23,7 @@ h3{
 }
 body .col1{
     width: calc(100% / 3 - 10px);
-    height: 60px;
+    height: 80px;
     float: left;
     background-color: black;
     margin: 10px 5px;
@@ -37,15 +35,16 @@ body .col1{
 .text{
     float: left;
     color: white;
-    font-size: 7px;
+    font-size: 13px;
     text-align: left;
     padding: 10px 10px;
 }
-.text h5 , p{
+.text h4 , p{
     margin-bottom: 6px;
 }
 a{
     color: rgb(77, 204, 242);
+    text-decoration: none;
 }
 .clearfix::after{
     content: '';
